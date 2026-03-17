@@ -99,4 +99,6 @@ router.get("/evento/:eventoId", InscricaoController.listarPorEvento);
  */
 router.patch("/:id/cancelar", InscricaoController.cancelar);
 
+router.get("/:id/detalhes", InscricaoController.detalhes);
+
 module.exports = router;
